@@ -1,0 +1,48 @@
+h1{
+    color: navy;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+
+    background-color: green;
+
+    height: 100%;
+
+    margin: 0px;
+}
+
+html{
+    height: 100%;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 4%;
+
+    height: 100%;
+    width: 30%;
+}   
+
+.column div{
+    height: 100%;
+}
+
+#titlecontainer{
+    background-image: url("images/willian-justen-de-vasconcellos-PAObFWz1BXc-unsplash.jpg");
+    background-size: cover;
+}
+
+#formcontainer{
+    width: 70%;
+    color: white;
+}
+
+#formcontainer div{
+    background-color: white;
+}
